@@ -6,9 +6,6 @@
 html {
     font-size: 62.5%;
     }
-a {
-    text-decoration: none;
-}
 .header__navigation--list {
     list-style: none;
     margin: 0;
@@ -22,7 +19,6 @@ a {
     padding: 3.4rem;
     float: left;
 }
-
 body {
     background-color: #454851;
 }
@@ -48,7 +44,7 @@ img {
 .header {
     font-family: 'Times New Roman', Times, serif;
     font-size: 5rem;
-}
+    }
 .header__banner {
     width: 100%;
     height: auto;
@@ -107,6 +103,9 @@ img {
 }
 .company {
     width: 12rem;
+}
+.navbar-color {
+    background: #95d7ae;
 }
 
 
