@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+html {
+    font-size: 62.5%;
+    }
+a {
+    text-decoration: none;
+}
+.header__navigation--list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+.header__navigation--item {
+    display: block;
+    color: #454851;
+    text-align: center;
+    padding: 3.4rem;
+    float: left;
+}
+
+body {
+    background-color: #454851;
+}
+img {
+    max-width: 100%;
+}
+.footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 7rem 7rem;
+    background-color: #95d7ae;
+    margin-top: 5rem;
+    }
+.margintop {
+    margin-top: 10rem;
+}
+.header__companylogo {
+    width: 35rem;
+    position:absolute; left:-55px; top:-50px;
+}
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+}
+.header__banner {
+    width: 100%;
+    height: auto;
+    position: relative; left: 0; top: 0;
+}
+.header__navigation {
+    width: 100%;
+    height: auto;
+    position:relative; left:0rem; top:-1.3rem;
+}
+.header__navigation--list {
+    width: 100%;
+    height: auto;
+    position:absolute; left:0rem; top:16rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    }
+.content__title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+.content__images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    }
+    .content__images--size {
+        width: 40rem;
+    }
+.content__mechanic {
+    width: 80rem;
+    padding-top: 3rem;
+}
+.content__text {
+    padding: 5rem;
+}
+.link {
+    color: #95d7ae;
+}
+.racing {
+    width: 70rem;
+    padding: 2rem;
+}
+.company {
+    width: 12rem;
+}
+
+
+
+
+
