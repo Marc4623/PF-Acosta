@@ -107,7 +107,9 @@ img {
 .navbar-color {
     background: #95d7ae;
 }
-
+.navbar__item--color {
+    color: white;
+}
 
 
 
