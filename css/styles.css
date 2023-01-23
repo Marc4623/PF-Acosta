@@ -6,19 +6,6 @@
 html {
     font-size: 62.5%;
     }
-.header__navigation--list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    }
-.header__navigation--item {
-    display: block;
-    color: #454851;
-    text-align: center;
-    padding: 3.4rem;
-    float: left;
-}
 body {
     background-color: #454851;
 }
@@ -110,7 +97,15 @@ img {
 .navbar__item--color {
     color: white;
 }
-
-
+.card__body--color {
+    background: #7bae7f;
+}
+.btn__color {
+    background: #454851;
+    font-size: 2rem;
+}
+.card__image--size {
+    height: 16rem;
+}
 
 
