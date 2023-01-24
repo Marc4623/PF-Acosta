@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="content">
-    <header class="header">
+    <header class="header" id="top">
         <img src="../img/banner.png" alt="banner" class="header__banner">
         <div>
             <nav class="navbar navbar-expand-lg navbar-color">
@@ -19,7 +19,7 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link px-4 navbar__item--color" href="../index.html">Home</a>
                             <a class="nav-link px-4 navbar__item--color"  href="services.html">Services</a>
@@ -35,12 +35,12 @@
     </header >
     <h1 class="content__title">How to get in touch?</h1>
     <p>Here at Marc's Restorations we value the connection with our clients in this page you will find every way of reaching us.</p>
-    <section class="content">
-        <div>street 1234</div>
+    <section class="content container">
+        <div>Addres: Main Street 1234</div>
         
-        <div>@: Marcsrestorations@gmail.com</div>
+        <div>Email: Marcsrestorations@gmail.com</div>
         
-        <div>2258264874</div>
+        <div>Phone: 2258264874</div>
         
         <div>Bussines hours: 9:00am to 18:00pm</div>
         
@@ -49,18 +49,20 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.2826504811487!2d-118.26250762564031!3d34.036619973162814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7ceeb24d2c1%3A0x9ae623f3291b7b01!2s1234%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090015%2C%20EE.%20UU.!5e0!3m2!1ses!2suy!4v1670964509288!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
         <p>If you prefer we contact you please fill the next form:</p>
-        <form>
-            <div><input type="text" id="name_and_surname" placeholder="tell us your name"></div>
-            <div><input type="email" name="email" id="emal" placeholder="restorations@gmail.com"></div>
-            <div><input type="tel" name="phone" id="phone" placeholder="phone number"></div>
-            <label for="text">send us a message:</label>
-            <div><textarea name="talk with us" id="text" cols="30" rows="10"></textarea></div>
-            <div><input type="submit" value="Send"> <input type="reset" value="erase everything"></div>
-            </form>
+        <form class="container">
+            <div class="mb-3"><input type="text" class="form-control form-control-lg navbar-color" placeholder="Tell us your name"></div>
+            <div class="mb-3"><input type="email" class="form-control form-control-lg navbar-color" placeholder="Restorations@gmail.com"></div>
+            <div class="mb-3"><input type="tel" class="form-control form-control-lg navbar-color" placeholder="Phone number"></div>
+            <div class="mb-3"><textarea class="form-control navbar-color" rows="12" placeholder="Talk with us" ></textarea></div>
+            <div><input class="btn btn-secondary send__color" type="submit" value="Send"> <input class="btn btn-secondary send__color" type="reset" value="erase everything"></div>
+        </form>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
-<footer class="footer">
-    This web page is a work of fiction
+<footer class="footer container-fluid">
+    <div>This web page is a work of fiction</div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a href="#top" class="btn btn-secondary btn__color" type="button">Go Up</a>
+    </div>
 </footer>
 </html>

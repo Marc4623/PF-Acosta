@@ -7,6 +7,7 @@
     <title>Marc's Restorations</title>
     <link rel="shortcut icon" href="img/company-logo-transparent.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="content">
@@ -19,7 +20,7 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link active px-4" aria-current="page" href="index.html">Home</a>
                             <a class="nav-link px-4 navbar__item--color" href="pages/services.html">Services</a>
@@ -40,17 +41,21 @@
     <p>from Good Wood Festival of Speed to Amelia Island Concours d'Elegance our cars never fail to capture the attention of judges and public alike.</p>
     </div>
     <div class="content__images">
-    <img src="img/car-restoration.jpg" alt="car restoration" class="content__images--size">
-    <img src="img/bf25532d3948e418819a15b46107e1d7--twitter-jim-orourke.jpg" alt="race cars" class="content__images--size">
-    <img src="img/potd-Goodwood-damon-hill.jpg" alt="damon hill" class="content__images--size">
+    <img src="img/car-restoration.jpg" alt="car restoration" class="content__images--size rounded animate__animated animate__backInLeft">
+    <img src="img/racecars.jpg" alt="race cars" class="content__images--size rounded animate__animated animate__backInDown only__mid">
+    <img src="img/potd-Goodwood-damon-hill.jpg" alt="damon hill" class="content__images--size rounded animate__animated animate__backInRight">
     </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 <footer class="footer container-fluid">
     <div>This web page is a work of fiction</div>
     <div class="d-grid gap-2 col-6 mx-auto">
-        <a href="#top" class="btn btn-secondary btn__color" type="button">Go Back Up</a>
+        <a href="#top" class="btn btn-secondary btn__color" type="button">Go Up</a>
     </div>
 </footer>
 </html>
