@@ -73,7 +73,7 @@ img {
         }
     }
     .content__images--size {
-        width: 40rem;
+        width: 100%;
     }
 .content__mechanic {
     width: 80rem;
@@ -116,7 +116,14 @@ img {
 }
 .carousel__size {
     width: 100%;
-    }
+}
+.my__row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+}
     @media (min-width: 992px) {
         .only__large {
     display: flex;
@@ -127,4 +134,7 @@ img {
         .carousel__size {
             width: 65rem;
             }
+        .content__images--size {
+            width: 40rem;
+        }
     }
