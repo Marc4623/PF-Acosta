@@ -16,13 +16,6 @@ img {
     background-color: #95d7ae;
     margin-top: 5rem;
     }
-.margintop {
-    margin-top: 10rem;
-}
-.header__companylogo {
-    width: 35rem;
-    position:absolute; left:-55px; top:-50px;
-}
 .header {
     font-family: 'Times New Roman', Times, serif;
     font-size: 5rem;
@@ -43,15 +36,6 @@ img {
     color: white;
     text-align: center;
     padding: 4rem;
-}
-.content__title--left {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    color: white;
-    text-align: left;
-    margin-top: 5rem;
-    margin-left: 22rem;
-    margin-bottom: 5rem;
 }
 .content__images {
     display: flex;
