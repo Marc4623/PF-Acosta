@@ -74,6 +74,10 @@ img {
 .link {
     color: #95d7ae;
 }
+.map__size {
+    width: 50rem;
+    height: 50rem;
+}
 .racing {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -140,6 +144,10 @@ img {
     .content__mechanic {
         width: 80rem;
     }
+    .map__size {
+        width: 80rem;
+        height: 80rem;
+    }
 }
 @media (min-width: 857px)  {
     .only__mid {
@@ -147,5 +155,9 @@ img {
     }
     .content__images--size {
         width: 40rem;
+    }
+    .map__size {
+        width: 70rem;
+        height: 60rem;
     }
 }
