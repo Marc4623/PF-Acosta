@@ -1,0 +1,44 @@
+
+@import "variables";
+
+
+
+@media (min-width: 992px) {
+    .only__large {
+    display: flex;
+    }
+    .card__query--lg {
+    display: none;
+    }
+    .carousel__size {
+    width: 65rem;
+    }
+    .content__images {
+        img {
+            width: 40rem;
+        }
+    }
+    .racing {
+    width: 70rem;
+    margin: 2rem;
+    }
+    .content__mechanic {
+        width: 80rem;
+    }
+    .map__size {
+        @include size(80rem, 80rem)
+    }
+}
+@media (min-width: 857px)  {
+    .only__mid {
+        display: flex;
+    }
+    .content__images {
+        img {
+            width: 40rem;
+        }
+    }
+    .map__size {
+        @include size(70rem, 60rem)
+    }
+}

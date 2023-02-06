@@ -1,169 +1,164 @@
 html {
-    font-size: 62.5%;
-    }
+  font-size: 62.5%;
+}
+
 body {
-    background-color: #454851;
+  background-color: #454851;
 }
+
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
-.footer {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    padding: 7rem 7rem;
-    background-color: #95d7ae;
-    margin-top: 5rem;
-    }
-.header {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    }
-.header__banner {
-    display: flex;
-    justify-content: center;
-}
+
 .content {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    }
-.content__title {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
-    color: white;
-    text-align: center;
-    padding: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
 }
+.content h1 {
+  font-size: 5rem;
+  padding: 4rem;
+}
+.content header {
+  font-size: 5rem;
+}
+
 .content__images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    }
-.content__images--size {
-    width: 100%;
-    margin: 1rem;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
-.content__mechanic {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.content__images img {
+  width: 100%;
+  margin: 1rem;
 }
-.content__text {
-    padding: 5rem;
-}
-.link {
-    color: #95d7ae;
-}
-.map__size {
-    width: 50rem;
-    height: 50rem;
-}
-.racing {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.company {
-    width: 12rem;
-}
-.navbar-color {
-    background: #95d7ae;
-}
-.navbar__item--color {
-    color: white;
-}
-.drop__item {
-    background: #95d7ae;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    color: white;
-}
-.card__body--color {
-    background: #7bae7f;
-}
-.btn__color {
-    background: #454851;
-    font-size: 2rem;
-}
-.send__color {
-    background: #95d7ae;
-    font-size: 2rem;
-}
-.card__image--size {
-    height: 16rem;
-}
-.card__dad {
-    justify-content: center;
-}
+
 .only__large {
-    display: none;
+  display: none;
 }
+
 .only__mid {
-    display: none;
+  display: none;
 }
+
 .carousel__size {
-    width: 100%;
+  width: 100%;
 }
+
+.content__mechanic {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content__text {
+  padding: 5rem;
+}
+
+.link {
+  color: #95d7ae;
+}
+
+.map__size {
+  width: 50rem;
+  height: 50rem;
+}
+
+.racing {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn__color, .send__color {
+  background: #454851;
+  font-size: 2rem;
+}
+
+.send__color {
+  background: #95d7ae;
+}
+
+.company {
+  width: 12rem;
+}
+
+.navbar-color {
+  background: #95d7ae;
+}
+.navbar-color a {
+  color: white;
+}
+
+.footer {
+  padding: 7rem 7rem;
+  background-color: #95d7ae;
+  margin-top: 5rem;
+}
+
+.header__banner {
+  display: flex;
+  justify-content: center;
+}
+
+.card__dad {
+  display: flex;
+  justify-content: center;
+}
+.card__dad img {
+  height: 16rem;
+}
+
+.card__body--color {
+  background: #7bae7f;
+}
+
 .my__row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
 }
+
 @media (min-width: 992px) {
-    .only__large {
+  .only__large {
     display: flex;
-    }
-    .card__query--lg {
+  }
+  .card__query--lg {
     display: none;
-    }
-    .carousel__size {
+  }
+  .carousel__size {
     width: 65rem;
-    }
-    .content__images--size {
+  }
+  .content__images img {
     width: 40rem;
-    }
-    .racing {
+  }
+  .racing {
     width: 70rem;
     margin: 2rem;
-    }
-    .content__mechanic {
-        width: 80rem;
-    }
-    .map__size {
-        width: 80rem;
-        height: 80rem;
-    }
+  }
+  .content__mechanic {
+    width: 80rem;
+  }
+  .map__size {
+    width: 80rem;
+    height: 80rem;
+  }
 }
-@media (min-width: 857px)  {
-    .only__mid {
-        display: flex;
-    }
-    .content__images--size {
-        width: 40rem;
-    }
-    .map__size {
-        width: 70rem;
-        height: 60rem;
-    }
-}
-#car,
-#race,
-#all {
-    display: nne;
-}
-.car-card,
-.race-card {
-    display: none;
-}
-#car:checked ~ .car__dad .car-card {
+@media (min-width: 857px) {
+  .only__mid {
     display: flex;
+  }
+  .content__images img {
+    width: 40rem;
+  }
+  .map__size {
+    width: 70rem;
+    height: 60rem;
+  }
 }
-#race:checked ~ .car__dad .race-card {
-    display: flex;
-}
+
+/*# sourceMappingURL=styles.css.map */

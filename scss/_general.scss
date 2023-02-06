@@ -1,0 +1,71 @@
+
+@import "variables";
+
+html {
+    font-size: 62.5%;
+    }
+body {
+    background-color: $background;
+}
+img {
+    max-width: 100%;
+}
+.content {
+    font-family: $font;
+    font-size: $text-size;
+    color: $text-color;
+    text-align: center;
+
+    h1 {
+        font-size: $text-size + 3rem;
+        padding: 4rem;
+    }
+
+    header {
+        font-size: $text-size + 3rem;
+    }
+}
+.content__images {
+    @include images;
+    margin-top: $spacing;
+    margin-bottom: $spacing;
+
+    img {
+        width: 100%;
+        margin: $spacing - 4rem; 
+    }
+}
+.only__large {
+    display: none;
+}
+.only__mid {
+    display: none;
+}
+.carousel__size {
+    width: 100%;
+}
+.content__mechanic {
+    margin-top: $spacing - 4rem;
+    margin-bottom: $spacing - 4rem;
+}
+.content__text {
+    padding: $spacing;
+}
+.link {
+    color: $main-color;
+}
+.map__size {
+    @include size(50rem, 50rem)
+}
+.racing {
+    margin-top: $spacing - 3rem;
+    margin-bottom: $spacing - 3rem;
+}
+.btn__color {
+    background: $background;
+    font-size: $text-size;
+}
+.send__color {
+    @extend .btn__color;
+    background: $main-color;
+}

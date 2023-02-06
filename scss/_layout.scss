@@ -1,0 +1,37 @@
+
+@import "variables";
+
+.company {
+    width: 12rem;
+}
+.navbar-color {
+    background: $main-color;
+
+    a {
+        color: $text-color;
+        }
+}
+.footer {
+    padding: 7rem 7rem;
+    background-color: $main-color;
+    margin-top: $spacing;
+    }
+.header__banner {
+    @include flexcenter;
+}
+.card__dad {
+    @include flexcenter;
+    img {
+        height: 16rem;
+    }
+}
+.card__body--color {
+    background: $contrast-color;
+}
+.my__row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+}
