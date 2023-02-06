@@ -76,6 +76,12 @@ img {
 .navbar__item--color {
     color: white;
 }
+.drop__item {
+    background: #95d7ae;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: white;
+}
 .card__body--color {
     background: #7bae7f;
 }
@@ -145,4 +151,19 @@ img {
         width: 70rem;
         height: 60rem;
     }
+}
+#car,
+#race,
+#all {
+    display: nne;
+}
+.car-card,
+.race-card {
+    display: none;
+}
+#car:checked ~ .car__dad .car-card {
+    display: flex;
+}
+#race:checked ~ .car__dad .race-card {
+    display: flex;
 }
