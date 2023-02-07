@@ -2,10 +2,6 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  background-color: #454851;
-}
-
 img {
   max-width: 100%;
 }
@@ -73,12 +69,16 @@ img {
 }
 
 .btn__color, .send__color {
-  background: #454851;
+  background-color: #454851;
   font-size: 2rem;
 }
 
 .send__color {
-  background: #95d7ae;
+  background-color: #95d7ae;
+}
+
+body {
+  background-color: #454851;
 }
 
 .company {
@@ -86,7 +86,7 @@ img {
 }
 
 .navbar-color {
-  background: #95d7ae;
+  background-color: #95d7ae;
 }
 .navbar-color a {
   color: white;
@@ -94,8 +94,8 @@ img {
 
 .footer {
   padding: 7rem 7rem;
-  background-color: #95d7ae;
   margin-top: 5rem;
+  background-color: #95d7ae;
 }
 
 .header__banner {
@@ -112,7 +112,7 @@ img {
 }
 
 .card__body--color {
-  background: #7bae7f;
+  background-color: #7bae7f;
 }
 
 .my__row {

@@ -3,9 +3,6 @@
 
 html {
     font-size: 62.5%;
-    }
-body {
-    background-color: $background;
 }
 img {
     max-width: 100%;
@@ -52,7 +49,12 @@ img {
     padding: $spacing;
 }
 .link {
-    color: $main-color;
+    @if $theme == christmas {
+        color: $main-christmas;
+    }
+    @else { 
+        color: $main-color;
+}
 }
 .map__size {
     @include size(50rem, 50rem)
@@ -62,10 +64,20 @@ img {
     margin-bottom: $spacing - 3rem;
 }
 .btn__color {
-    background: $background;
+    @if $theme == christmas {
+        background-color: $background-christmas;
+    }
+    @else { 
+        background-color: $background;
+    }
     font-size: $text-size;
 }
 .send__color {
     @extend .btn__color;
-    background: $main-color;
+    @if $theme == christmas {
+        background-color: $main-christmas;
+    }
+    @else { 
+        background-color: $main-color;
+    }
 }

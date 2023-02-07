@@ -7,6 +7,11 @@ $text-size: 2rem;
 $spacing: 5rem;
 $font: 'Times New Roman', Times, serif;
 
+$theme: none;
+
+$main-christmas: #b4864b;
+$contrast-christmas: #2d6d5c;
+$background-christmas: #85010b;
 
 @mixin size($value1, $value2) {
     width: $value1;

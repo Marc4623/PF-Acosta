@@ -1,11 +1,24 @@
 
 @import "variables";
 
+body {
+    @if $theme == christmas {
+        background-color: $background-christmas
+    }
+    @else { 
+        background-color: $background;
+}
+}
 .company {
     width: 12rem;
 }
 .navbar-color {
-    background: $main-color;
+    @if $theme == christmas {
+        background-color: $main-christmas;
+    }
+    @else { 
+        background-color: $main-color;
+}
 
     a {
         color: $text-color;
@@ -13,9 +26,14 @@
 }
 .footer {
     padding: 7rem 7rem;
-    background-color: $main-color;
     margin-top: $spacing;
+    @if $theme == christmas {
+        background-color: $main-christmas;
     }
+    @else { 
+        background-color: $main-color;
+    }
+}
 .header__banner {
     @include flexcenter;
 }
@@ -26,7 +44,12 @@
     }
 }
 .card__body--color {
-    background: $contrast-color;
+    @if $theme == christmas {
+        background-color: $contrast-christmas;
+    }
+    @else { 
+        background-color: $contrast-color;
+    }
 }
 .my__row {
     --bs-gutter-x: 1.5rem;
