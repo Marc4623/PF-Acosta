@@ -31,3 +31,6 @@ $background-christmas: #85010b;
     display: flex;
     justify-content: center;
 }
+.map__size {
+    @include size(30rem, 30rem)
+}

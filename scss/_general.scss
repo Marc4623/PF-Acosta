@@ -57,7 +57,7 @@ img {
 }
 }
 .map__size {
-    @include size(50rem, 50rem)
+    @include size(35rem, 50rem)
 }
 .racing {
     margin-top: $spacing - 3rem;
