@@ -81,3 +81,21 @@ img {
         background-color: $main-color;
     }
 }
+#mybutton {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: $contrast-color; 
+    color: $text-color; 
+    cursor: pointer; 
+    padding: $spacing - 3rem; 
+    border-radius: 60px; 
+    font-size: $text-size;
+}
+#mybutton:hover {
+    background-color: $contrast-christmas; /* Add a dark-grey background on hover */
+  }

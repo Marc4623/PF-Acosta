@@ -1,8 +1,3 @@
-.map__size {
-  width: 30rem;
-  height: 30rem;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -82,9 +77,24 @@ img {
   background-color: #95d7ae;
 }
 
-.map__size {
-  width: 30rem;
-  height: 30rem;
+#mybutton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #7bae7f;
+  color: white;
+  cursor: pointer;
+  padding: 2rem;
+  border-radius: 60px;
+  font-size: 2rem;
+}
+
+#mybutton:hover {
+  background-color: #2d6d5c; /* Add a dark-grey background on hover */
 }
 
 body {
@@ -133,14 +143,8 @@ body {
   margin-top: calc(-1 * var(--bs-gutter-y));
 }
 
-.map__size {
-  width: 30rem;
-  height: 30rem;
-}
-
-.map__size {
-  width: 30rem;
-  height: 30rem;
+.form {
+  width: 100%;
 }
 
 @media (min-width: 992px) {
@@ -178,6 +182,9 @@ body {
   .map__size {
     width: 70rem;
     height: 60rem;
+  }
+  .form {
+    width: 40%;
   }
 }
 
