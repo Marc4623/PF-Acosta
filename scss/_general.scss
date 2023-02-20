@@ -32,6 +32,9 @@ img {
         margin: $spacing - 4rem; 
     }
 }
+.carousel__images {
+    height: 26rem;
+}
 .only__large {
     display: none;
 }
@@ -97,5 +100,5 @@ img {
     font-size: $text-size;
 }
 #mybutton:hover {
-    background-color: $contrast-christmas; /* Add a dark-grey background on hover */
-  }
+    background-color: $contrast-christmas; 
+}

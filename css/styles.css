@@ -33,6 +33,10 @@ img {
   margin: 1rem;
 }
 
+.carousel__images {
+  height: 26rem;
+}
+
 .only__large {
   display: none;
 }
@@ -94,7 +98,7 @@ img {
 }
 
 #mybutton:hover {
-  background-color: #2d6d5c; /* Add a dark-grey background on hover */
+  background-color: #2d6d5c;
 }
 
 body {
