@@ -190,6 +190,9 @@ body {
   .form {
     width: 40%;
   }
+  .carousel__images {
+    height: 50rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
